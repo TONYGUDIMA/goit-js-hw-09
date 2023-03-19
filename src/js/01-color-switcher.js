@@ -14,7 +14,7 @@ const changesColor = function() {
 
 startBtn.addEventListener('click', () => {
   startBtn.disabled = true
-  timerId = setInterval(changesColor, 1000)
+  const timerId = setInterval(changesColor, 1000)
 })
 
 stopBtn.addEventListener('click', () => {
